@@ -1,0 +1,43 @@
+.MiniPalette{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.MiniPalette:hover{
+    cursor: pointer;
+}
+
+.colors{
+    background-color: gray;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    position: relative;
+    margin: 0;
+}
+#emoji{
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.mini-color{
+    height: 25%;
+    width: 20%;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: -3.5px;
+}
